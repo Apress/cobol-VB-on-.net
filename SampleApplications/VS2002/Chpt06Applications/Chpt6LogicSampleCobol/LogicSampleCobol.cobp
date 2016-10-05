@@ -1,0 +1,59 @@
+"General"
+{
+"ProjectIdGuid" = "{C908D575-243C-4A33-9D17-79E26E651F0A}"
+"NestedProjectID" = "{33888DB8-CE72-442E-B7E0-A00B68934F8C}"
+"EntryName" = "MAIN"
+"OutputType" = "Exe"
+"AssemblyName" = "LogicSampleCobol"
+"Version" = ""
+"Company" = ""
+"Copyright" = ""
+"ProductName" = ""
+"Trademark" = ""
+"Description" = ""
+"Title" = ""
+"DelaySign" = "False"
+"KeyFile" = ""
+"KeyName" = ""
+}
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "OutputPath" = "bin\\Debug\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+    "Release|.NET"
+    {
+    "OutputPath" = "bin\\Release\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+}
+"Source Files"
+{
+    "Program1.cob"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "F"
+    "PropertyChanged" = "T"
+    "Default View" = "Code"
+    }
+}
+"Copy Book Files"
+{
+}
+"References"
+{
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

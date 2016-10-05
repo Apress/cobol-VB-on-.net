@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StateManagementVB", "http://localhost/StateManagementVB/StateManagementVB.vbproj", "{F5D34CB6-77BF-41EE-A4A6-791B84FD3D34}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F5D34CB6-77BF-41EE-A4A6-791B84FD3D34}.Debug.ActiveCfg = Debug|.NET
+		{F5D34CB6-77BF-41EE-A4A6-791B84FD3D34}.Debug.Build.0 = Debug|.NET
+		{F5D34CB6-77BF-41EE-A4A6-791B84FD3D34}.Release.ActiveCfg = Release|.NET
+		{F5D34CB6-77BF-41EE-A4A6-791B84FD3D34}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

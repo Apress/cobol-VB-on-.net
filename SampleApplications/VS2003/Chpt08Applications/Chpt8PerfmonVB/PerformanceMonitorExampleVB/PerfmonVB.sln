@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PerfmonVB", "PerfmonVB.vbproj", "{01F33534-9B1D-4E27-A79C-95B434E70094}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{01F33534-9B1D-4E27-A79C-95B434E70094}.Debug.ActiveCfg = Debug|.NET
+		{01F33534-9B1D-4E27-A79C-95B434E70094}.Debug.Build.0 = Debug|.NET
+		{01F33534-9B1D-4E27-A79C-95B434E70094}.Release.ActiveCfg = Release|.NET
+		{01F33534-9B1D-4E27-A79C-95B434E70094}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

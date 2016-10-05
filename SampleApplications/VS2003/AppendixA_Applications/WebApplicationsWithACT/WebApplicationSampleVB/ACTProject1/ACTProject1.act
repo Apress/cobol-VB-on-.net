@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Project>
+<Project version="1.0.527.0" created="11/26/2002 9:18:29 PM" modified="1/1/2000">
+	<Test name="ACT-VBSTest1" file="ACT-VBSTest1.vbs" type="Dynamic" settings="testProperties-ACT-VBSTest1.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-ACT-VBSTest1-Nov 26, 2002 21-24-35" file="report-ACT-VBSTest1-Nov 26, 2002 21-24-35.xml"/>
+		<Report name="report-ACT-VBSTest1-Nov 26, 2002 21-28-39" file="report-ACT-VBSTest1-Nov 26, 2002 21-28-39.xml"/>
+		<Report name="report-ACT-VBSTest1-Nov 26, 2002 21-34-20" file="report-ACT-VBSTest1-Nov 26, 2002 21-34-20.xml"/>
+		<Report name="report-ACT-VBSTest1-Nov 26, 2002 21-40-40" file="report-ACT-VBSTest1-Nov 26, 2002 21-40-40.xml"/>
+		<Report name="report-ACT-VBSTest1-Nov 26, 2002 21-45-54" file="report-ACT-VBSTest1-Nov 26, 2002 21-45-54.xml"/>
+		<Report name="report-ACT-VBSTest1-Nov 26, 2002 22-29-15" file="report-ACT-VBSTest1-Nov 26, 2002 22-29-15.xml"/>
+		<Report name="report-ACT-VBSTest1-Nov 26, 2002 22-51-11" file="report-ACT-VBSTest1-Nov 26, 2002 22-51-11.xml"/>
+		<PerfCounters file="perfCounters-ACT-VBSTest1.xml"/>
+	</Test>
+	<UserGroupDef name="Default Users Group" file="userGroup-Default Users Group.xml"/>
+	<ClientGroupDef name="Default Clients Group" file="clientGroup-Default Clients Group.xml"/>
+	<DefaultValues file="properties.xml"/>
+</Project>

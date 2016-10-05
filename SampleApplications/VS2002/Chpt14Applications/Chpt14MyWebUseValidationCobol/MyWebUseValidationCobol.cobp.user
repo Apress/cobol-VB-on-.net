@@ -1,0 +1,15 @@
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "StartApplication" = "http://localhost/MyWebUseValidationCobol/WebForm1.aspx"
+    "StartWorkingDirectory" = ""
+    "StartArguments" = ""
+    }
+    "Release|.NET"
+    {
+    "StartApplication" = ""
+    "StartWorkingDirectory" = ""
+    "StartArguments" = ""
+    }
+}

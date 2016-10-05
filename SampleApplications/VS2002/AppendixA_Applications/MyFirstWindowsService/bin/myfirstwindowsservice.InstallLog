@@ -1,0 +1,147 @@
+﻿Installing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Installing service MyFirstWindowsService...
+Service MyFirstWindowsService has been successfully installed.
+Creating EventLog source MyFirstWindowsService in log Application...
+Committing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Installing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Installing service MyFirstWindowsService...
+Creating EventLog source MyFirstWindowsService in log Application...
+Rolling back assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Restoring event log to previous state for source MyFirstWindowsService.
+Uninstalling assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Removing EventLog source MyFirstWindowsService.
+Service MyFirstWindowsService is being removed from the system...
+Service MyFirstWindowsService was successfully removed from the system.
+Uninstalling assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Removing EventLog source MyFirstWindowsService.
+Warning: The source MyFirstWindowsService is not registered on the local machine.
+Service MyFirstWindowsService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Installing service MyFirstWindowsService...
+Service MyFirstWindowsService has been successfully installed.
+Creating EventLog source MyFirstWindowsService in log Application...
+Committing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Uninstalling assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Removing EventLog source MyFirstWindowsService.
+Service MyFirstWindowsService is being removed from the system...
+Service MyFirstWindowsService was successfully removed from the system.
+Installing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Installing service MyFirstWindowsService...
+Service MyFirstWindowsService has been successfully installed.
+Creating EventLog source MyFirstWindowsService in log Application...
+Committing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Uninstalling assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Removing EventLog source MyFirstWindowsService.
+Service MyFirstWindowsService is being removed from the system...
+Service MyFirstWindowsService was successfully removed from the system.
+Installing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Installing service MyFirstWindowsService...
+Service MyFirstWindowsService has been successfully installed.
+Creating EventLog source MyFirstWindowsService in log Application...
+Committing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Uninstalling assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Removing EventLog source MyFirstWindowsService.
+Service MyFirstWindowsService is being removed from the system...
+Service MyFirstWindowsService was successfully removed from the system.
+Installing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Installing service MyFirstWindowsService...
+Service MyFirstWindowsService has been successfully installed.
+Creating EventLog source MyFirstWindowsService in log Application...
+Committing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Uninstalling assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Removing EventLog source MyFirstWindowsService.
+Service MyFirstWindowsService is being removed from the system...
+Service MyFirstWindowsService was successfully removed from the system.
+Installing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Installing service MyFirstWindowsService...
+Service MyFirstWindowsService has been successfully installed.
+Creating EventLog source MyFirstWindowsService in log Application...
+Committing assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Uninstalling assembly 'c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Removing EventLog source MyFirstWindowsService.
+Service MyFirstWindowsService is being removed from the system...
+Service MyFirstWindowsService was successfully removed from the system.
+Installing assembly 'c:\documents and settings\administrator\my documents\book preparation and references\figuresandsource\technicalprepforfiguresandsource\appendixa_applications\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\documents and settings\administrator\my documents\book preparation and references\figuresandsource\technicalprepforfiguresandsource\appendixa_applications\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\documents and settings\administrator\my documents\book preparation and references\figuresandsource\technicalprepforfiguresandsource\appendixa_applications\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Installing service MyFirstWindowsService...
+Service MyFirstWindowsService has been successfully installed.
+Creating EventLog source MyFirstWindowsService in log Application...
+Committing assembly 'c:\documents and settings\administrator\my documents\book preparation and references\figuresandsource\technicalprepforfiguresandsource\appendixa_applications\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\documents and settings\administrator\my documents\book preparation and references\figuresandsource\technicalprepforfiguresandsource\appendixa_applications\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\documents and settings\administrator\my documents\book preparation and references\figuresandsource\technicalprepforfiguresandsource\appendixa_applications\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Uninstalling assembly 'c:\documents and settings\administrator\my documents\book preparation and references\figuresandsource\technicalprepforfiguresandsource\appendixa_applications\myfirstwindowsservice\bin\myfirstwindowsservice.exe'.
+Affected parameters are:
+   assemblypath = c:\documents and settings\administrator\my documents\book preparation and references\figuresandsource\technicalprepforfiguresandsource\appendixa_applications\myfirstwindowsservice\bin\myfirstwindowsservice.exe
+   logfile = c:\documents and settings\administrator\my documents\book preparation and references\figuresandsource\technicalprepforfiguresandsource\appendixa_applications\myfirstwindowsservice\bin\myfirstwindowsservice.InstallLog
+Removing EventLog source MyFirstWindowsService.
+Service MyFirstWindowsService is being removed from the system...
+Service MyFirstWindowsService was successfully removed from the system.

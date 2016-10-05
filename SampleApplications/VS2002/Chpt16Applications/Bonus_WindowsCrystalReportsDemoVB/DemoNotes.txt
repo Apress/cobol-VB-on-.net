@@ -1,0 +1,29 @@
+Create form
+drag viewer to form
+change doc to "fill"
+Add a app.config file (Application Configuration FIle) for settings
+Currently sending out to "C:\Temp" folder. Create thie folder is desired.
+Create ADO.NET logic to create DataSet
+Create XML Schema FIle (xsd)
+Add CR ReportDocument Object 
+	one time registration
+	used Standard Report - use the "expert/wizard"
+	On Data Tab, chose More Data Sources
+	Navigate to saved XSD file
+	Follow expert/wizard prompts
+Make Adjustments to Report (.rpt) via Designer
+Move .rpt file to \bin folder
+
+Added additional forms to support programmatic export options
+Added Code to programmatically export PDF and XLS formats
+Add Logic to use OpenFileDialog Control to display Temp folder
+	
+
+Crystal Reports online Knowledge Base and Developer Zone
+Crystal Reports upgrade options, etc.
+
+
+
+
+
+        

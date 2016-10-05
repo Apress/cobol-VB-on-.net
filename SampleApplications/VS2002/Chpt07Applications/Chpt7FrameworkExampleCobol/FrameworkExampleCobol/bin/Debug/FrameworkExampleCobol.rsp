@@ -1,0 +1,6 @@
+/nologo
+/main:MYFIRSTCLASS,MAIN
+/target:exe
+/out:"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Chpt07Applications\Chpt7FrameworkExampleCobol\FrameworkExampleCobol\bin\Debug\FrameworkExampleCobol.exe"
+/debug
+"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Chpt07Applications\Chpt7FrameworkExampleCobol\FrameworkExampleCobol\Program1.cob"

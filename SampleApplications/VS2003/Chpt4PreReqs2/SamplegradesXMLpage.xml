@@ -1,0 +1,28 @@
+<?xml version="1.0"?> 
+<grades>
+
+        <student id="Jim">
+                <test_scores>125</test_scores>
+                <homework_scores>228</homework_scores>
+                <quiz_scores>56</quiz_scores>
+        </student>
+
+        <student id="John">
+                <test_scores>150</test_scores>
+                <homework_scores>200</homework_scores>
+                <quiz_scores>98</quiz_scores>
+        </student>
+
+        <student id="Jane">
+                <test_scores>180</test_scores>
+                <homework_scores>160</homework_scores>
+                <quiz_scores>110</quiz_scores>
+        </student>
+        
+		<student id="Sally">
+                <test_scores>110</test_scores>
+                <homework_scores>250</homework_scores>
+                <quiz_scores>89</quiz_scores>
+        </student>
+        
+</grades>

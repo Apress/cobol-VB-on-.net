@@ -1,0 +1,9 @@
+Dear World.
+
+I am so looking forward to learning about the Microsoft .NET Framework and Visual Studio.NET. I've been a loyal mainframe programmer for many years. The mainframe has served me well. However, lately, I have seen a lot of movement in the industry toward Web and Windows programming. I am now concerned about my career and tecnical health. Yes, I know that the mainframe is not going any where. But, I have recently read a well written book (by Chris Richardson, published by Apress) that opened my eyes to several trends. The most disturbing trend is the multiple directions that the software vendors appear to be taking mainframe cobol programming in. These directions may be fine for the individual software and hardware vendors. But, I do not have to go along. I am opting out. 
+
+Thank You World. 
+
+Ps. I'll be hanging out in the .Net World - learning NetCobol for .Net and Visual Basic.Net if you need me for any contracting work.
+
+Yours Truly - a proud "reformed" mainframe programmer

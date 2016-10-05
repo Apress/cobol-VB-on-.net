@@ -1,0 +1,63 @@
+"General"
+{
+"ProjectIdGuid" = "{38791C4F-74A9-40E4-ADF3-EB6310B3D115}"
+"NestedProjectID" = "{7CCD9E7D-56C8-41BB-997F-056A602463F5}"
+"EntryName" = "MAIN"
+"OutputType" = "Exe"
+"AssemblyName" = "DataBaseAccessExampleCOBOL"
+"Version" = ""
+"Company" = ""
+"Copyright" = ""
+"ProductName" = ""
+"Trademark" = ""
+"Description" = ""
+"Title" = ""
+"DelaySign" = "False"
+"KeyFile" = ""
+"KeyName" = ""
+}
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "OutputPath" = "bin\\Debug\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+    "Release|.NET"
+    {
+    "OutputPath" = "bin\\Release\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+}
+"Source Files"
+{
+    "Program1.cob"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "F"
+    "PropertyChanged" = "F"
+    "Default View" = "Code"
+    }
+}
+"Copy Book Files"
+{
+}
+"References"
+{
+    "System.Data"
+    {
+    "AssemblyName" = "System.Data"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

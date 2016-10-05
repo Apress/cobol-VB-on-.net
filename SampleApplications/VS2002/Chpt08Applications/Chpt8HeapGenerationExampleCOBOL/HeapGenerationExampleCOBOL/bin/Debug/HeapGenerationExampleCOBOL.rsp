@@ -1,0 +1,6 @@
+/nologo
+/main:MAIN
+/target:exe
+/out:"C:\Common Docs\Chris Book\SampleApplications\VS2002\Chpt08Applications\Chpt8HeapGenerationExampleCOBOL\HeapGenerationExampleCOBOL\bin\Debug\HeapGenerationExampleCOBOL.exe"
+/debug
+"C:\Common Docs\Chris Book\SampleApplications\VS2002\Chpt08Applications\Chpt8HeapGenerationExampleCOBOL\HeapGenerationExampleCOBOL\Program1.cob"

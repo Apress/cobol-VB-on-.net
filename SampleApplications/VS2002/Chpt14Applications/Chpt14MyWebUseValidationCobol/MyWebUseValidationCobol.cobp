@@ -1,0 +1,105 @@
+"General"
+{
+"ProjectIdGuid" = "{0BAD0868-8236-4D08-980D-0F08B844B5AF}"
+"NestedProjectID" = "{66236ED5-76FB-4273-9222-E18DB2E429DE}"
+"EntryName" = ""
+"OutputType" = "Dll"
+"AssemblyName" = "MyWebUseValidationCobol"
+"Version" = ""
+"Company" = ""
+"Copyright" = ""
+"ProductName" = ""
+"Trademark" = ""
+"Description" = ""
+"Title" = ""
+"DelaySign" = "False"
+"KeyFile" = ""
+"KeyName" = ""
+}
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "OutputPath" = "bin\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = "/wc:NOALPHAL"
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+    "Release|.NET"
+    {
+    "OutputPath" = "bin\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = "/wc:NOALPHAL"
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+}
+"Source Files"
+{
+    "Global.asax"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "T"
+    "Default View" = "IDEDefault"
+        "Global.asax.cob"
+        {
+        "ProjRelPath" = "T"
+        "ExcludeFromBuild" = "F"
+        "Default View" = "IDEDefault"
+        }
+    }
+    "WebForm1.aspx"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "T"
+    "Default View" = "IDEDefault"
+        "WebForm1.aspx.cob"
+        {
+        "ProjRelPath" = "T"
+        "ExcludeFromBuild" = "F"
+        "Default View" = "IDEDefault"
+            "WebForm1.aspx.resx"
+            {
+            "ProjRelPath" = "T"
+            "ExcludeFromBuild" = "T"
+            "Default View" = "IDEDefault"
+            }
+        }
+    }
+}
+"Copy Book Files"
+{
+}
+"References"
+{
+    "System"
+    {
+    "AssemblyName" = "System"
+    "HintPath" = "..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.dll"
+    }
+    "System.Web"
+    {
+    "AssemblyName" = "System.Web"
+    "HintPath" = "..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Web.dll"
+    }
+    "System.Drawing"
+    {
+    "AssemblyName" = "System.Drawing"
+    "HintPath" = "..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Drawing.dll"
+    }
+    "System.Data"
+    {
+    "AssemblyName" = "System.Data"
+    "HintPath" = "..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Data.dll"
+    }
+}
+"Web References"
+{
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

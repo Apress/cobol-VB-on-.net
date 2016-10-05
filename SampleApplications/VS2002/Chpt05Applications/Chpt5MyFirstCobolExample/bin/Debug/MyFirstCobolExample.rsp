@@ -1,0 +1,6 @@
+/nologo
+/main:MAIN
+/target:exe
+/out:"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Chpt05Applications\Chpt5MyFirstCobolExample\bin\Debug\MyFirstCobolExample.exe"
+/debug
+"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Chpt05Applications\Chpt5MyFirstCobolExample\Program1.cob"

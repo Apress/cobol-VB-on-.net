@@ -1,0 +1,6 @@
+/nologo
+/main:MAIN
+/target:exe
+/out:"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt8BoxingExampleCobol\BoxingExampleCobol\bin\Debug\BoxingExampleCobol.exe"
+/debug
+"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt8BoxingExampleCobol\BoxingExampleCobol\Program1.cob"

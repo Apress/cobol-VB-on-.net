@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataBaseAccessExampleVB", "DataBaseAccessExampleVB.vbproj", "{09F47961-79F7-4562-9FF7-5E9E5B2731DF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{09F47961-79F7-4562-9FF7-5E9E5B2731DF}.Debug.ActiveCfg = Debug|.NET
+		{09F47961-79F7-4562-9FF7-5E9E5B2731DF}.Debug.Build.0 = Debug|.NET
+		{09F47961-79F7-4562-9FF7-5E9E5B2731DF}.Release.ActiveCfg = Release|.NET
+		{09F47961-79F7-4562-9FF7-5E9E5B2731DF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

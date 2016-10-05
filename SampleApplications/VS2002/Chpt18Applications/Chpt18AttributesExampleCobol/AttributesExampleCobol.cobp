@@ -1,0 +1,92 @@
+"General"
+{
+"ProjectIdGuid" = "{37726A03-A900-4904-88AB-6A8D12BDA779}"
+"NestedProjectID" = "{F10B09EB-8A35-4C9B-893A-98D4FE3E32B5}"
+"EntryName" = "AttributesExampleCobol.Form1,Main"
+"OutputType" = "WinExe"
+"AssemblyName" = "AttributesExampleCobol"
+"Version" = ""
+"Company" = "www.eClecticSoftwareSolutions.com"
+"Copyright" = ""
+"ProductName" = "The Mainframe Programmer's Guide to .NET"
+"Trademark" = ""
+"Description" = "This is the Attributes Example Using COBOL"
+"Title" = "AttributesExample"
+"DelaySign" = "False"
+"KeyFile" = ""
+"KeyName" = ""
+}
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "OutputPath" = "bin\\Debug\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = "/wc:NOALPHAL"
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+    "Release|.NET"
+    {
+    "OutputPath" = "bin\\Release\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = "/wc:NOALPHAL"
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+}
+"Source Files"
+{
+    "Form1.cob"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "F"
+    "Default View" = "Design"
+        "Form1.resx"
+        {
+        "ProjRelPath" = "T"
+        "ExcludeFromBuild" = "T"
+        "Default View" = "IDEDefault"
+        }
+    }
+}
+"Copy Book Files"
+{
+}
+"References"
+{
+    "System"
+    {
+    "AssemblyName" = "System"
+    "HintPath" = "..\\..\\..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.dll"
+    }
+    "System.Data"
+    {
+    "AssemblyName" = "System.Data"
+    "HintPath" = "..\\..\\..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Data.dll"
+    }
+    "System.Drawing"
+    {
+    "AssemblyName" = "System.Drawing"
+    "HintPath" = "..\\..\\..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Drawing.dll"
+    }
+    "System.Windows.Forms"
+    {
+    "AssemblyName" = "System.Windows.Forms"
+    "HintPath" = "..\\..\\..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Windows.Forms.dll"
+    }
+    "System.Xml"
+    {
+    "AssemblyName" = "System.Xml"
+    "HintPath" = "..\\..\\..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Xml.dll"
+    }
+}
+"Web References"
+{
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

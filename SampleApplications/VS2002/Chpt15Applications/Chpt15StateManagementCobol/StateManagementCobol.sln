@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{83A0EA8E-D76E-42EE-894A-BCD4CD2BB664}") = "StateManagementCobol", "StateManagementCobol.cobp", "{CE97420C-8945-453A-93CF-64757B68C3D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CE97420C-8945-453A-93CF-64757B68C3D3}.Debug.ActiveCfg = Debug|.NET
+		{CE97420C-8945-453A-93CF-64757B68C3D3}.Debug.Build.0 = Debug|.NET
+		{CE97420C-8945-453A-93CF-64757B68C3D3}.Release.ActiveCfg = Release|.NET
+		{CE97420C-8945-453A-93CF-64757B68C3D3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

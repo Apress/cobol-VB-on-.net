@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{83A0EA8E-D76E-42EE-894A-BCD4CD2BB664}") = "DefineDataTypesSampleCOBOL", "DefineDataTypesSampleCOBOL.cobp", "{42A7B0A3-90AE-4893-9439-49CD8B4EA6D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{42A7B0A3-90AE-4893-9439-49CD8B4EA6D9}.Debug.ActiveCfg = Debug|.NET
+		{42A7B0A3-90AE-4893-9439-49CD8B4EA6D9}.Debug.Build.0 = Debug|.NET
+		{42A7B0A3-90AE-4893-9439-49CD8B4EA6D9}.Release.ActiveCfg = Release|.NET
+		{42A7B0A3-90AE-4893-9439-49CD8B4EA6D9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

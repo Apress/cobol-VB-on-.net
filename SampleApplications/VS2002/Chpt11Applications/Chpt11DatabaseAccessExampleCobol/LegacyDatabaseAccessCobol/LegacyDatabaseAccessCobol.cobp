@@ -1,0 +1,59 @@
+"General"
+{
+"ProjectIdGuid" = "{12C1CC99-1ED8-44BE-833C-CF7CDE276D88}"
+"NestedProjectID" = "{FB7733F1-5D05-445C-9C81-E9E46BF6E812}"
+"EntryName" = "Program1"
+"OutputType" = "Exe"
+"AssemblyName" = "LegacyDatabaseAccessCobol"
+"Version" = ""
+"Company" = ""
+"Copyright" = ""
+"ProductName" = ""
+"Trademark" = ""
+"Description" = ""
+"Title" = ""
+"DelaySign" = "False"
+"KeyFile" = ""
+"KeyName" = ""
+}
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "OutputPath" = "bin\\Debug\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+    "Release|.NET"
+    {
+    "OutputPath" = "bin\\Release\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+}
+"Source Files"
+{
+    "Program1.cob"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "F"
+    "PropertyChanged" = "F"
+    "Default View" = "Code"
+    }
+}
+"Copy Book Files"
+{
+}
+"References"
+{
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

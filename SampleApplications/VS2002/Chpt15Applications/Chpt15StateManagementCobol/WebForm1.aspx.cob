@@ -1,0 +1,422 @@
+000010 IDENTIFICATION DIVISION.
+000020 CLASS-ID. WebForm1 AS "StateManagementCobol.WebForm1"
+000030     INHERITS CLASS-PAGE.
+000040 ENVIRONMENT DIVISION.
+000050 CONFIGURATION SECTION.
+000060 SPECIAL-NAMES.
+000070 REPOSITORY.
+000080     CLASS CLASS-DATETIME AS "System.DateTime"
+000090     CLASS CLASS-EVENTARGS AS "System.EventArgs"
+000100     DELEGATE DELEGATE-EVENTHANDLER AS "System.EventHandler"
+000110     CLASS CLASS-OBJECT AS "System.Object"
+000120     CLASS CLASS-STRING AS "System.String"
+000130     CLASS CLASS-CACHE AS "System.Web.Caching.Cache"
+000140     CLASS CLASS-HttpApplicationState AS "System.Web.HttpApplicationState"
+000150     CLASS CLASS-HTTPCONTEXT AS "System.Web.HttpContext"
+000160     CLASS CLASS-COOKIE AS "System.Web.HttpCookie"
+000170     CLASS CLASS-COOKIES AS "System.Web.HttpCookieCollection"
+000180     CLASS CLASS-HTTPREQUEST AS "System.Web.HttpRequest"
+000190     CLASS CLASS-RESPONSE AS "System.Web.HttpResponse"
+000200     CLASS CLASS-HTMLINPUTHIDDEN AS "System.Web.UI.HtmlControls.HtmlInputHidden"
+000210     CLASS CLASS-PAGE AS "System.Web.UI.Page"
+000220     CLASS CLASS-VIEWSTATE AS "System.Web.UI.StateBag"
+000230     CLASS CLASS-BUTTON AS "System.Web.UI.WebControls.Button"
+000240     CLASS CLASS-LABEL AS "System.Web.UI.WebControls.Label"
+000250     CLASS CLASS-REQUIREDFIELDVALIDATOR AS "System.Web.UI.WebControls.RequiredFieldValidator"
+000260     CLASS CLASS-TEXTBOX AS "System.Web.UI.WebControls.TextBox"
+000270     PROPERTY PROP-APPLICATION AS "Application"
+000280     PROPERTY PROP-BUTTON1 AS "Button1"
+000290     PROPERTY PROP-BUTTON2 AS "Button2"
+000300     PROPERTY PROP-BUTTON3 AS "Button3"
+000310     PROPERTY PROP-BUTTON4 AS "Button4"
+000320     PROPERTY PROP-CACHE AS "Cache"
+000330     PROPERTY PROP-COOKIES AS "Cookies"
+000340     PROPERTY PROP-CURRENT AS "Current"
+000350     PROPERTY PROP-EXPIRES AS "Expires"
+000360     PROPERTY PROP-NOW AS "Now"
+000370     PROPERTY PROP-REQUEST AS "Request"
+000380     PROPERTY PROP-RESPONSE AS "Response"
+000390     PROPERTY PROP-TEXT AS "Text"
+000400     PROPERTY PROP-VALUE AS "Value"
+000410     PROPERTY PROP-VIEWSTATE AS "ViewState"
+000411     PROPERTY PROP-ENABLED AS "Enabled"
+000412     CLASS CLASS-HttpSessionState AS "System.Web.SessionState.HttpSessionState"
+000413     PROPERTY PROP-SESSION AS "Session"
+000420     .
+000430 OBJECT.
+000440 DATA DIVISION.
+000450 WORKING-STORAGE SECTION.
+000460 01 Button1 OBJECT REFERENCE CLASS-BUTTON PROPERTY.
+000470 01 TextBox1 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000480 01 Label1 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000490 01 Label3 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000500 01 Button3 OBJECT REFERENCE CLASS-BUTTON PROPERTY.
+000510 01 TextBox2 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000520 01 Label2 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000530 01 TextBox3 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000540 01 Label5 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000550 01 Button4 OBJECT REFERENCE CLASS-BUTTON PROPERTY.
+000560 01 TextBox5 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000570 01 Label7 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000580 01 TextBox6 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000590 01 Label8 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000600 01 TextBox7 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000610 01 TextBox8 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000620 01 Label9 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000630 01 TextBox9 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000640 01 Label10 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000650 01 Label11 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000660 01 TextBox10 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000670 01 Label4 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000680 01 Label12 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000690 01 Hidden1 OBJECT REFERENCE CLASS-HTMLINPUTHIDDEN PROPERTY.
+000700 01 RequiredFieldValidator1 OBJECT REFERENCE CLASS-REQUIREDFIELDVALIDATOR PROPERTY.
+000710 01 MyPage OBJECT REFERENCE CLASS-PAGE.
+000720 
+000730 PROCEDURE DIVISION.
+000740
+000750* Required method for Designer support - do not modify
+000760* the contents of this method with the code editor.
+000770 METHOD-ID. INITIALIZECOMPONENT AS "InitializeComponent" PRIVATE.
+000780 DATA DIVISION.
+000790 WORKING-STORAGE SECTION.
+000800 01 TEMP1 OBJECT REFERENCE CLASS-BUTTON.
+000810 01 TEMP2 OBJECT REFERENCE DELEGATE-EVENTHANDLER.
+000820 01 TEMP3 OBJECT REFERENCE CLASS-BUTTON.
+000830 01 TEMP4 OBJECT REFERENCE DELEGATE-EVENTHANDLER.
+000840 01 TEMP5 OBJECT REFERENCE CLASS-BUTTON.
+000850 01 TEMP6 OBJECT REFERENCE DELEGATE-EVENTHANDLER.
+000860 01 TEMP7 OBJECT REFERENCE DELEGATE-EVENTHANDLER.
+000870 PROCEDURE DIVISION.
+000880*>>IMP BEGIN-EMBEDDED-CODEDOM
+000890*<embedded-codedom>
+000900*<object type="System.CodeDom.CodeAttachEventStatement">
+000910*<prop name="Event">
+000920*<object type="System.CodeDom.CodeEventReferenceExpression">
+000930*<prop name="TargetObject">
+000940*<object type="System.CodeDom.CodeFieldReferenceExpression">
+000950*<prop name="TargetObject">
+000960*<object type="System.CodeDom.CodeThisReferenceExpression">
+000970*</object>
+000980*</prop>
+000990*<prop name="FieldName">
+001000*<string value="Button1" />
+001010*</prop>
+001020*</object>
+001030*</prop>
+001040*<prop name="EventName">
+001050*<string value="Click" />
+001060*</prop>
+001070*</object>
+001080*</prop>
+001090*<prop name="Listener">
+001100*<object type="System.CodeDom.CodeDelegateCreateExpression">
+001110*<prop name="DelegateType">
+001120*<object type="System.CodeDom.CodeTypeReference">
+001130*<prop name="BaseType">
+001140*<string value="System.EventHandler" />
+001150*</prop>
+001160*</object>
+001170*</prop>
+001180*<prop name="TargetObject">
+001190*<object type="System.CodeDom.CodeThisReferenceExpression">
+001200*</object>
+001210*</prop>
+001220*<prop name="MethodName">
+001230*<string value="Button1_Click" />
+001240*</prop>
+001250*</object>
+001260*</prop>
+001270*</object>
+001280*<object type="System.CodeDom.CodeAttachEventStatement">
+001290*<prop name="Event">
+001300*<object type="System.CodeDom.CodeEventReferenceExpression">
+001310*<prop name="TargetObject">
+001320*<object type="System.CodeDom.CodeFieldReferenceExpression">
+001330*<prop name="TargetObject">
+001340*<object type="System.CodeDom.CodeThisReferenceExpression">
+001350*</object>
+001360*</prop>
+001370*<prop name="FieldName">
+001380*<string value="Button3" />
+001390*</prop>
+001400*</object>
+001410*</prop>
+001420*<prop name="EventName">
+001430*<string value="Click" />
+001440*</prop>
+001450*</object>
+001460*</prop>
+001470*<prop name="Listener">
+001480*<object type="System.CodeDom.CodeDelegateCreateExpression">
+001490*<prop name="DelegateType">
+001500*<object type="System.CodeDom.CodeTypeReference">
+001510*<prop name="BaseType">
+001520*<string value="System.EventHandler" />
+001530*</prop>
+001540*</object>
+001550*</prop>
+001560*<prop name="TargetObject">
+001570*<object type="System.CodeDom.CodeThisReferenceExpression">
+001580*</object>
+001590*</prop>
+001600*<prop name="MethodName">
+001610*<string value="Button3_Click" />
+001620*</prop>
+001630*</object>
+001640*</prop>
+001650*</object>
+001660*<object type="System.CodeDom.CodeAttachEventStatement">
+001670*<prop name="Event">
+001680*<object type="System.CodeDom.CodeEventReferenceExpression">
+001690*<prop name="TargetObject">
+001700*<object type="System.CodeDom.CodeFieldReferenceExpression">
+001710*<prop name="TargetObject">
+001720*<object type="System.CodeDom.CodeThisReferenceExpression">
+001730*</object>
+001740*</prop>
+001750*<prop name="FieldName">
+001760*<string value="Button4" />
+001770*</prop>
+001780*</object>
+001790*</prop>
+001800*<prop name="EventName">
+001810*<string value="Click" />
+001820*</prop>
+001830*</object>
+001840*</prop>
+001850*<prop name="Listener">
+001860*<object type="System.CodeDom.CodeDelegateCreateExpression">
+001870*<prop name="DelegateType">
+001880*<object type="System.CodeDom.CodeTypeReference">
+001890*<prop name="BaseType">
+001900*<string value="System.EventHandler" />
+001910*</prop>
+001920*</object>
+001930*</prop>
+001940*<prop name="TargetObject">
+001950*<object type="System.CodeDom.CodeThisReferenceExpression">
+001960*</object>
+001970*</prop>
+001980*<prop name="MethodName">
+001990*<string value="Button4_Click" />
+002000*</prop>
+002010*</object>
+002020*</prop>
+002030*</object>
+002040*<object type="System.CodeDom.CodeAttachEventStatement">
+002050*<prop name="Event">
+002060*<object type="System.CodeDom.CodeEventReferenceExpression">
+002070*<prop name="TargetObject">
+002080*<object type="System.CodeDom.CodeThisReferenceExpression">
+002090*</object>
+002100*</prop>
+002110*<prop name="EventName">
+002120*<string value="Load" />
+002130*</prop>
+002140*</object>
+002150*</prop>
+002160*<prop name="Listener">
+002170*<object type="System.CodeDom.CodeDelegateCreateExpression">
+002180*<prop name="DelegateType">
+002190*<object type="System.CodeDom.CodeTypeReference">
+002200*<prop name="BaseType">
+002210*<string value="System.EventHandler" />
+002220*</prop>
+002230*</object>
+002240*</prop>
+002250*<prop name="TargetObject">
+002260*<object type="System.CodeDom.CodeThisReferenceExpression">
+002270*</object>
+002280*</prop>
+002290*<prop name="MethodName">
+002300*<string value="Page_Load" />
+002310*</prop>
+002320*</object>
+002330*</prop>
+002340*</object>
+002350*</embedded-codedom>
+002360*>>IMP END-EMBEDDED-CODEDOM
+002370     SET TEMP1 TO PROP-BUTTON1 OF SELF
+002380     INVOKE DELEGATE-EVENTHANDLER "NEW" USING BY VALUE SELF BY VALUE N"Button1_Click" RETURNING TEMP2
+002390     INVOKE TEMP1 "add_Click" USING BY VALUE TEMP2
+002400     SET TEMP3 TO PROP-BUTTON3 OF SELF
+002410     INVOKE DELEGATE-EVENTHANDLER "NEW" USING BY VALUE SELF BY VALUE N"Button3_Click" RETURNING TEMP4
+002420     INVOKE TEMP3 "add_Click" USING BY VALUE TEMP4
+002430     SET TEMP5 TO PROP-BUTTON4 OF SELF
+002440     INVOKE DELEGATE-EVENTHANDLER "NEW" USING BY VALUE SELF BY VALUE N"Button4_Click" RETURNING TEMP6
+002450     INVOKE TEMP5 "add_Click" USING BY VALUE TEMP6
+002460     INVOKE DELEGATE-EVENTHANDLER "NEW" USING BY VALUE SELF BY VALUE N"Page_Load" RETURNING TEMP7
+002470     INVOKE SELF "add_Load" USING BY VALUE TEMP7
+002480 END METHOD INITIALIZECOMPONENT.
+002490
+002500 METHOD-ID. ONINIT AS "OnInit" OVERRIDE PROTECTED.
+002510 DATA DIVISION.
+002520 LINKAGE SECTION.
+002530 01 PARAM-E OBJECT REFERENCE CLASS-EVENTARGS.
+002540 PROCEDURE DIVISION USING BY VALUE PARAM-E.
+002550     INVOKE SELF "InitializeComponent".
+002560     INVOKE SUPER "OnInit" USING BY VALUE PARAM-E.
+002570 END METHOD ONINIT.
+002580
+002590 METHOD-ID. PAGE_LOAD AS "Page_Load" PRIVATE.
+002600 DATA DIVISION.
+002610 WORKING-STORAGE SECTION.
+002620 LINKAGE SECTION.
+002630 01 PARAM-SENDER OBJECT REFERENCE CLASS-OBJECT.
+002640 01 PARAM-E OBJECT REFERENCE CLASS-EVENTARGS.
+002650 PROCEDURE DIVISION USING BY VALUE PARAM-SENDER PARAM-E.
+002660     SET MyPage TO SELF.
+002670    
+002680 END METHOD PAGE_LOAD.
+002690 
+002700 METHOD-ID. Button1_Click PRIVATE.
+002710 DATA DIVISION.
+002720 WORKING-STORAGE SECTION.
+002730   01 MiscString        PIC X(100).
+002740   01 MiscString1       PIC X(25).
+002750   01 MyResponse        OBJECT REFERENCE CLASS-RESPONSE.
+002760 LINKAGE SECTION.
+002770 01 sender OBJECT REFERENCE CLASS-OBJECT.
+002780 01 e OBJECT REFERENCE CLASS-EVENTARGS.
+002790 PROCEDURE DIVISION USING BY VALUE sender e.
+002800     SET MyResponse TO PROP-RESPONSE OF MyPage.
+002810   
+002820     INITIALIZE MiscString
+002830     SET MiscString1 TO PROP-TEXT OF TextBox1
+002840     STRING "WebForm2.aspx?PassedQueryStringValue=" DELIMITED BY SIZE
+002850             MiscString1 DELIMITED BY SPACES
+002860              INTO MiscString
+002870     INVOKE MyResponse "Redirect" USING BY VALUE MiscString.
+002880     
+002890 END METHOD Button1_Click.
+002900 
+002910 METHOD-ID. Button3_Click PRIVATE.
+002920 DATA DIVISION.
+002930 WORKING-STORAGE SECTION.
+002940   01 MyCookieObject        OBJECT REFERENCE CLASS-COOKIE.
+002950   01 MyCookieCollection    OBJECT REFERENCE CLASS-COOKIES.
+002960   01 MyCurrentContext      OBJECT REFERENCE CLASS-HTTPCONTEXT.
+002970   01 NowDateTime           OBJECT REFERENCE CLASS-DATETIME.
+002980   01 WhenToExpire          OBJECT REFERENCE CLASS-DATETIME.
+002990   01 MyResponse            OBJECT REFERENCE CLASS-RESPONSE.
+003000   01 MyViewState           OBJECT REFERENCE CLASS-VIEWSTATE.
+003010   01 MiscString1           PIC X(25).
+003020   01 MyApplicationCache    OBJECT REFERENCE CLASS-CACHE.
+003030 LINKAGE SECTION.
+003040 01 sender OBJECT REFERENCE CLASS-OBJECT.
+003050 01 e OBJECT REFERENCE CLASS-EVENTARGS.
+003060 PROCEDURE DIVISION USING BY VALUE sender e.
+003070     
+003080
+003090* Create the Persistent Cookie
+003100     INVOKE CLASS-COOKIE "NEW" USING BY VALUE "MiscText" 
+003110		   RETURNING MyCookieObject
+003120     SET PROP-VALUE OF MyCookieObject TO PROP-TEXT OF TextBox1
+003130     SET NowDateTime TO PROP-NOW OF CLASS-DATETIME
+003140     INVOKE NowDateTime "AddSeconds" USING BY VALUE 15 
+003150		   RETURNING WhenToExpire
+003160     SET PROP-EXPIRES OF MyCookieObject TO WhenToExpire
+003170     SET MyCurrentContext TO PROP-CURRENT OF CLASS-HTTPCONTEXT
+003180	   SET MyResponse TO PROP-RESPONSE OF MyCurrentContext
+003190     SET MyCookieCollection TO PROP-COOKIES OF MyResponse
+003200     INVOKE MyCookieCollection "Add" USING BY VALUE MyCookieObject
+003210     
+003220* Polulate Hidden Control Value
+003230     SET PROP-VALUE OF Hidden1 TO PROP-TEXT OF TextBox1
+003240     
+003250* Populate ViewState
+003260     SET MiscString1 TO PROP-TEXT OF TextBox1
+003270     SET MyViewState TO PROP-VIEWSTATE OF SELF
+003280     INVOKE MyViewState "set_Item" 
+003290     USING BY VALUE "MyNewViewSTate" MiscString1
+003300     
+003310* Populate Application Cache
+003320     SET MiscString1 TO PROP-TEXT OF TextBox1
+003330     SET MyApplicationCache TO PROP-CACHE OF SELF
+003340     INVOKE MyApplicationCache "set_Item" 
+003350     USING BY VALUE "MyApplicationCache" MiscString1
+003351     
+003352     SET PROP-ENABLED OF Button4 TO B'1'.
+003360     
+003370 END METHOD Button3_Click.
+003380 
+003390 METHOD-ID. Button4_Click PRIVATE.
+003400 DATA DIVISION.
+003410 WORKING-STORAGE SECTION.
+003420   01 MyCookieObject        OBJECT REFERENCE CLASS-COOKIE.
+003430   01 MyCookieCollection    OBJECT REFERENCE CLASS-COOKIES.
+003440   01 MyViewState           OBJECT REFERENCE CLASS-VIEWSTATE.
+003450   01 MiscString1           PIC X(25).
+003460   01 MiscObject            OBJECT REFERENCE CLASS-OBJECT.
+003470   01 MiscObject1           OBJECT REFERENCE CLASS-OBJECT.
+003480   01 MyHttpApplicationState OBJECT REFERENCE CLASS-HttpApplicationState.
+003490   01 DateTimeObj           OBJECT REFERENCE CLASS-DATETIME.
+003500   01 MyApplicationCache    OBJECT REFERENCE CLASS-CACHE.
+003501   01 MyHttpSessionState    OBJECT REFERENCE CLASS-HttpSessionState.
+003510 LINKAGE SECTION.
+003520 01 sender OBJECT REFERENCE CLASS-OBJECT.
+003530 01 e OBJECT REFERENCE CLASS-EVENTARGS.
+003540 PROCEDURE DIVISION USING BY VALUE sender e.
+003550     
+003560 
+003570* Retrieve the Persistent Cookie
+003580     SET MyCookieCollection TO PROP-COOKIES OF PROP-REQUEST OF SELF
+003590     INVOKE MyCookieCollection "get_Item" 
+003600		   USING BY VALUE "MiscText" RETURNING MyCookieObject
+003610     IF MyCookieObject NOT EQUAL NULL
+003620         SET PROP-TEXT OF TextBox5 TO PROP-VALUE OF MyCookieObject
+003630     ELSE
+003640		   SET PROP-TEXT OF TextBox5 TO "No Cookie"
+003650     END-IF
+003660
+003670* Retrieve Hidden Control Value
+003680     SET PROP-TEXT OF TextBox3 TO PROP-VALUE OF Hidden1
+003690     
+003700* Retrieve View State
+003710     SET MyViewState TO PROP-VIEWSTATE OF MyPage
+003720     INVOKE MyViewState "get_Item" 
+003730     USING BY VALUE "MyNewViewSTate" RETURNING MiscObject
+003740     SET PROP-TEXT OF TextBox2 TO MiscObject AS CLASS-STRING
+003750     
+003760* Retrieve ApplicationState
+003770     SET MyHttpApplicationState TO PROP-APPLICATION OF SELF
+003780     INVOKE MyHttpApplicationState "get_Item" 
+003790	   USING BY VALUE "MyTimeTheAppStarted" RETURNING MiscObject1
+003800     SET PROP-TEXT OF TextBox6 TO MiscObject1::"ToString"()
+003810
+003820     INVOKE MyHttpApplicationState "get_Item" 
+003830	   USING BY VALUE "MyTimeTheLastRequestWasMade" RETURNING MiscObject1
+003840     SET PROP-TEXT OF TextBox7 TO MiscObject1::"ToString"()
+003850     
+003860* Retrieve Application Cache
+003870     SET MyApplicationCache TO PROP-CACHE OF SELF
+003880     INVOKE MyApplicationCache "get_Item" 
+003890	   USING BY VALUE "MyApplicationCache" RETURNING MiscObject1
+003900     SET PROP-TEXT OF TextBox10 TO MiscObject1::"ToString"()
+003910
+003911
+003912* Retrieve Session State
+003913
+003914     SET MyHttpSessionState TO PROP-SESSION OF SELF
+003915     INVOKE MyHttpSessionState "get_Item" 
+003916	   USING BY VALUE "MyTimeTheSessionStarted" RETURNING MiscObject1
+003917     SET PROP-TEXT OF TextBox8 TO MiscObject1::"ToString"()
+003918
+003919     INVOKE MyHttpSessionState "get_Item" 
+003920	   USING BY VALUE "MyTimeTheSessionIdentity" RETURNING MiscObject1
+003921     SET PROP-TEXT OF TextBox9 TO MiscObject1::"ToString"()
+003922
+003923 END METHOD Button4_Click.
+003930 
+003940 METHOD-ID. Button2_Click PRIVATE.
+003950 DATA DIVISION.
+003960 LINKAGE SECTION.
+003970 01 sender OBJECT REFERENCE CLASS-OBJECT.
+003980 01 e OBJECT REFERENCE CLASS-EVENTARGS.
+003990 PROCEDURE DIVISION USING BY VALUE sender e.
+004000 
+004010 END METHOD Button2_Click.
+004020
+004030 END OBJECT.
+004040 END CLASS WebForm1.

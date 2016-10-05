@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{E6FDF86B-F3D1-11D4-8576-0002A516ECE8}") = "MyFirstJSharpApplication", "MyFirstJSharpApplication.vjsproj", "{CABE8DF5-04A6-4CAC-806E-8FBC6FCB0D64}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CABE8DF5-04A6-4CAC-806E-8FBC6FCB0D64}.Debug.ActiveCfg = Debug|.NET
+		{CABE8DF5-04A6-4CAC-806E-8FBC6FCB0D64}.Debug.Build.0 = Debug|.NET
+		{CABE8DF5-04A6-4CAC-806E-8FBC6FCB0D64}.Release.ActiveCfg = Release|.NET
+		{CABE8DF5-04A6-4CAC-806E-8FBC6FCB0D64}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

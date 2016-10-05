@@ -1,0 +1,6 @@
+/nologo
+/main:Program1
+/target:exe
+/out:"C:\Common Docs\Chris Book\SampleApplications\VS2002\Chpt11Applications\Chpt11DatabaseAccessExampleCobol\LegacyDatabaseAccessCobol\bin\Debug\LegacyDatabaseAccessCobol.exe"
+/debug
+"C:\Common Docs\Chris Book\SampleApplications\VS2002\Chpt11Applications\Chpt11DatabaseAccessExampleCobol\LegacyDatabaseAccessCobol\Program1.cob"

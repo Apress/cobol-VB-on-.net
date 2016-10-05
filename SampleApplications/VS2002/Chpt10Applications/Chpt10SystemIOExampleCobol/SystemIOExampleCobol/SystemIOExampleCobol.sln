@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{83A0EA8E-D76E-42EE-894A-BCD4CD2BB664}") = "SystemIOExampleCobol", "SystemIOExampleCobol.cobp", "{1865A45F-8DE0-49AA-8BF7-71DB6F04CA17}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1865A45F-8DE0-49AA-8BF7-71DB6F04CA17}.Debug.ActiveCfg = Debug|.NET
+		{1865A45F-8DE0-49AA-8BF7-71DB6F04CA17}.Debug.Build.0 = Debug|.NET
+		{1865A45F-8DE0-49AA-8BF7-71DB6F04CA17}.Release.ActiveCfg = Release|.NET
+		{1865A45F-8DE0-49AA-8BF7-71DB6F04CA17}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

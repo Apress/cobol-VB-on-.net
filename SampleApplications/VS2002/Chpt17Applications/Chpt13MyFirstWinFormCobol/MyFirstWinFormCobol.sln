@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{83A0EA8E-D76E-42EE-894A-BCD4CD2BB664}") = "MyFirstWinFormCobol", "MyFirstWinFormCobol.cobp", "{626EA972-362E-4C0C-AAAA-F212D75D5AD0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyFirstWinFormCobolSetup", "MyFirstWinFormCobolSetup\MyFirstWinFormCobolSetup.vdproj", "{EC4DC3F4-33ED-4C82-BA3C-8ACF2560C398}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{626EA972-362E-4C0C-AAAA-F212D75D5AD0}.Debug.ActiveCfg = Debug|.NET
+		{626EA972-362E-4C0C-AAAA-F212D75D5AD0}.Debug.Build.0 = Debug|.NET
+		{626EA972-362E-4C0C-AAAA-F212D75D5AD0}.Release.ActiveCfg = Release|.NET
+		{626EA972-362E-4C0C-AAAA-F212D75D5AD0}.Release.Build.0 = Release|.NET
+		{EC4DC3F4-33ED-4C82-BA3C-8ACF2560C398}.Debug.ActiveCfg = Debug
+		{EC4DC3F4-33ED-4C82-BA3C-8ACF2560C398}.Debug.Build.0 = Debug
+		{EC4DC3F4-33ED-4C82-BA3C-8ACF2560C398}.Release.ActiveCfg = Release
+		{EC4DC3F4-33ED-4C82-BA3C-8ACF2560C398}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

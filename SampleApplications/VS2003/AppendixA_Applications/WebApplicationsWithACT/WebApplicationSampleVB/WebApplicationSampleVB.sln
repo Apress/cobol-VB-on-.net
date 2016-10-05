@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebApplicationSampleVB", "http://localhost/WebApplicationSampleVB/WebApplicationSampleVB.vbproj", "{3494E7CC-53AA-498A-BDE7-B2D29902835E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{06D95370-B7D2-11D1-87B4-00A0C91E2A46}") = "ACTProject1", "ACTProject1\ACTProject1.actproj", "{CB7CA063-EDF2-4520-8E04-50752A6FDB3F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3494E7CC-53AA-498A-BDE7-B2D29902835E}.Debug.ActiveCfg = Debug|.NET
+		{3494E7CC-53AA-498A-BDE7-B2D29902835E}.Debug.Build.0 = Debug|.NET
+		{3494E7CC-53AA-498A-BDE7-B2D29902835E}.Release.ActiveCfg = Release|.NET
+		{3494E7CC-53AA-498A-BDE7-B2D29902835E}.Release.Build.0 = Release|.NET
+		{CB7CA063-EDF2-4520-8E04-50752A6FDB3F}.Debug.ActiveCfg = Debug|Win32
+		{CB7CA063-EDF2-4520-8E04-50752A6FDB3F}.Release.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

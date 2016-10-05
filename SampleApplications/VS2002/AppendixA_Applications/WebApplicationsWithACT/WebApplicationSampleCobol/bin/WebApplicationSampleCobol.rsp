@@ -1,0 +1,12 @@
+/nologo
+/target:library
+/out:"C:\Inetpub\wwwroot\WebApplicationSampleCobol\bin\WebApplicationSampleCobol.dll"
+/debug
+/reference:"c:\winnt\assembly\gac\system\1.0.3300.0__b77a5c561934e089\system.dll"
+/reference:"c:\winnt\assembly\gac\system.web\1.0.3300.0__b03f5f7f11d50a3a\system.web.dll"
+/reference:"c:\winnt\assembly\gac\system.drawing\1.0.3300.0__b03f5f7f11d50a3a\system.drawing.dll"
+/reference:"c:\winnt\assembly\gac\system.data\1.0.3300.0__b77a5c561934e089\system.data.dll"
+/resource:"C:\Inetpub\wwwroot\WebApplicationSampleCobol\bin\WebApplicationSampleCobol.WebForm1.resources"
+/wc:NOALPHAL
+"C:\Inetpub\wwwroot\WebApplicationSampleCobol\Global.asax.cob"
+"C:\Inetpub\wwwroot\WebApplicationSampleCobol\WebForm1.aspx.cob"

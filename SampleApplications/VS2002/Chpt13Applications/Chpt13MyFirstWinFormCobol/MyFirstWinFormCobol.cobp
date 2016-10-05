@@ -1,0 +1,92 @@
+"General"
+{
+"ProjectIdGuid" = "{626EA972-362E-4C0C-AAAA-F212D75D5AD0}"
+"NestedProjectID" = "{0ABE50DE-3254-4062-BB8E-15A2E6864B2B}"
+"EntryName" = "MyFirstWinFormCobol.Form1,Main"
+"OutputType" = "WinExe"
+"AssemblyName" = "MyFirstWinFormCobol"
+"Version" = ""
+"Company" = ""
+"Copyright" = ""
+"ProductName" = ""
+"Trademark" = ""
+"Description" = ""
+"Title" = ""
+"DelaySign" = "False"
+"KeyFile" = ""
+"KeyName" = ""
+}
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "OutputPath" = "bin\\Debug\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = "/wc:NOALPHAL"
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+    "Release|.NET"
+    {
+    "OutputPath" = "bin\\Release\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = "/wc:NOALPHAL"
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+}
+"Source Files"
+{
+    "Form1.cob"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "F"
+    "Default View" = "Design"
+        "Form1.resx"
+        {
+        "ProjRelPath" = "T"
+        "ExcludeFromBuild" = "T"
+        "Default View" = "IDEDefault"
+        }
+    }
+}
+"Copy Book Files"
+{
+}
+"References"
+{
+    "System"
+    {
+    "AssemblyName" = "System"
+    "HintPath" = "..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.dll"
+    }
+    "System.Data"
+    {
+    "AssemblyName" = "System.Data"
+    "HintPath" = "..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Data.dll"
+    }
+    "System.Drawing"
+    {
+    "AssemblyName" = "System.Drawing"
+    "HintPath" = "..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Drawing.dll"
+    }
+    "System.Windows.Forms"
+    {
+    "AssemblyName" = "System.Windows.Forms"
+    "HintPath" = "..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Windows.Forms.dll"
+    }
+    "System.Xml"
+    {
+    "AssemblyName" = "System.Xml"
+    "HintPath" = "..\\..\\..\\..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Xml.dll"
+    }
+}
+"Web References"
+{
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

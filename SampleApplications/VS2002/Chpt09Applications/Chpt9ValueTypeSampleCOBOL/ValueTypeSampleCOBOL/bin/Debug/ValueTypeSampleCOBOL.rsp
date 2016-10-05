@@ -1,0 +1,8 @@
+/nologo
+/main:A-CLASS,MAIN
+/target:exe
+/out:"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt9ValueTypeSampleCOBOL\ValueTypeSampleCOBOL\bin\Debug\ValueTypeSampleCOBOL.exe"
+/debug
+"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt9ValueTypeSampleCOBOL\ValueTypeSampleCOBOL\Program1.cob"
+"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt9ValueTypeSampleCOBOL\ValueTypeSampleCOBOL\mybarStr.cob"
+"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt9ValueTypeSampleCOBOL\ValueTypeSampleCOBOL\mybarInt.cob"

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{83A0EA8E-D76E-42EE-894A-BCD4CD2BB664}") = "DataBaseAccessExampleCOBOL", "DataBaseAccessExampleCOBOL.cobp", "{38791C4F-74A9-40E4-ADF3-EB6310B3D115}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{38791C4F-74A9-40E4-ADF3-EB6310B3D115}.Debug.ActiveCfg = Debug|.NET
+		{38791C4F-74A9-40E4-ADF3-EB6310B3D115}.Debug.Build.0 = Debug|.NET
+		{38791C4F-74A9-40E4-ADF3-EB6310B3D115}.Release.ActiveCfg = Release|.NET
+		{38791C4F-74A9-40E4-ADF3-EB6310B3D115}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,81 @@
+"General"
+{
+"ProjectIdGuid" = "{5ADEB2D5-B57F-4C52-97EA-3DBABF5B7B33}"
+"NestedProjectID" = "{4391CF53-22E9-4D51-9CA6-15B99C87A722}"
+"EntryName" = ""
+"OutputType" = "Dll"
+"AssemblyName" = "MyFirstClassLibraryCobol"
+"Version" = ""
+"Company" = ""
+"Copyright" = ""
+"ProductName" = ""
+"Trademark" = ""
+"Description" = ""
+"Title" = ""
+"DelaySign" = "False"
+"KeyFile" = "bin\\MyFirstClassLibraryCobol.snk     "
+"KeyName" = ""
+}
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "OutputPath" = "bin\\Debug\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+    "Release|.NET"
+    {
+    "OutputPath" = "bin\\Release\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+}
+"Source Files"
+{
+    "MyFirstClass.cob"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "F"
+    "Default View" = "IDEDefault"
+    }
+}
+"Copy Book Files"
+{
+}
+"References"
+{
+    "System"
+    {
+    "AssemblyName" = "System"
+    "HintPath" = "..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.dll"
+    }
+    "System.Data"
+    {
+    "AssemblyName" = "System.Data"
+    "HintPath" = "..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Data.dll"
+    }
+    "System.Xml"
+    {
+    "AssemblyName" = "System.Xml"
+    "HintPath" = "..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Xml.dll"
+    }
+    "System.EnterpriseServices"
+    {
+    "AssemblyName" = "System.EnterpriseServices"
+    "HintPath" = "..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.EnterpriseServices.dll"
+    }
+}
+"Web References"
+{
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

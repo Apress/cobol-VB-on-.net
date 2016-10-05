@@ -1,0 +1,6 @@
+/nologo
+/main:MAIN
+/target:exe
+/out:"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt6DefineDataTypesSampleCOBOL\bin\Debug\DefineDataTypesSampleCOBOL.exe"
+/debug
+"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt6DefineDataTypesSampleCOBOL\Program1.cob"

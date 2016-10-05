@@ -1,0 +1,107 @@
+"General"
+{
+"ProjectIdGuid" = "{B90D0874-BA43-405A-9786-1A4E3DF055AB}"
+"NestedProjectID" = "{11644ADA-D362-4E7C-83AD-619E5CF23035}"
+"EntryName" = "MyMSMQAsyncAndTriggerCOBOL.Form1,Main"
+"OutputType" = "WinExe"
+"AssemblyName" = "MyMSMQAsyncAndTriggerCOBOL"
+"Version" = ""
+"Company" = ""
+"Copyright" = ""
+"ProductName" = ""
+"Trademark" = ""
+"Description" = ""
+"Title" = ""
+"DelaySign" = "False"
+"KeyFile" = ""
+"KeyName" = ""
+}
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "OutputPath" = "bin\\Debug\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = "/wc:NOALPHAL"
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+    "Release|.NET"
+    {
+    "OutputPath" = "bin\\Release\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = "/wc:NOALPHAL"
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+}
+"Source Files"
+{
+    "Form1.cob"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "F"
+    "Default View" = "Design"
+        "Form1.resx"
+        {
+        "ProjRelPath" = "T"
+        "ExcludeFromBuild" = "T"
+        "Default View" = "IDEDefault"
+        }
+    }
+}
+"Copy Book Files"
+{
+}
+"References"
+{
+    "System"
+    {
+    "AssemblyName" = "System"
+    "HintPath" = "..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.dll"
+    }
+    "System.Data"
+    {
+    "AssemblyName" = "System.Data"
+    "HintPath" = "..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Data.dll"
+    }
+    "System.Drawing"
+    {
+    "AssemblyName" = "System.Drawing"
+    "HintPath" = "..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Drawing.dll"
+    }
+    "System.Windows.Forms"
+    {
+    "AssemblyName" = "System.Windows.Forms"
+    "HintPath" = "..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Windows.Forms.dll"
+    }
+    "System.Xml"
+    {
+    "AssemblyName" = "System.Xml"
+    "HintPath" = "..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Xml.dll"
+    }
+    "System.Messaging"
+    {
+    "AssemblyName" = "System.Messaging"
+    "HintPath" = "..\\..\\winnt\\assembly\\gac\\system.messaging\\1.0.3300.0__b03f5f7f11d50a3a\\system.messaging.dll"
+    }
+    "System.Configuration.Install"
+    {
+    "AssemblyName" = "System.Configuration.Install"
+    "HintPath" = "..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.Configuration.Install.dll"
+    }
+    "System.DirectoryServices"
+    {
+    "AssemblyName" = "System.DirectoryServices"
+    "HintPath" = "..\\..\\WINNT\\Microsoft.NET\\Framework\\v1.0.3705\\System.DirectoryServices.dll"
+    }
+}
+"Web References"
+{
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

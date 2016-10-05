@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{83A0EA8E-D76E-42EE-894A-BCD4CD2BB664}") = "MyMSMQAsyncAndTriggerCOBOL", "MyMSMQAsyncAndTriggerCOBOL.cobp", "{B90D0874-BA43-405A-9786-1A4E3DF055AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B90D0874-BA43-405A-9786-1A4E3DF055AB}.Debug.ActiveCfg = Debug|.NET
+		{B90D0874-BA43-405A-9786-1A4E3DF055AB}.Debug.Build.0 = Debug|.NET
+		{B90D0874-BA43-405A-9786-1A4E3DF055AB}.Release.ActiveCfg = Release|.NET
+		{B90D0874-BA43-405A-9786-1A4E3DF055AB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

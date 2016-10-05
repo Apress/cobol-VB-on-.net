@@ -1,0 +1,59 @@
+"General"
+{
+"ProjectIdGuid" = "{D956EC7D-018B-41E7-B2AB-6AB5865A6C6D}"
+"NestedProjectID" = "{4E5CCBFC-5FA2-496A-BCE9-F93F4E1681B5}"
+"EntryName" = "MAIN"
+"OutputType" = "Exe"
+"AssemblyName" = "BoxingExampleCobol"
+"Version" = ""
+"Company" = ""
+"Copyright" = ""
+"ProductName" = ""
+"Trademark" = ""
+"Description" = ""
+"Title" = ""
+"DelaySign" = "False"
+"KeyFile" = ""
+"KeyName" = ""
+}
+"Configurations"
+{
+    "Debug|.NET"
+    {
+    "OutputPath" = "bin\\Debug\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+    "Release|.NET"
+    {
+    "OutputPath" = "bin\\Release\\"
+    "GenerateListFile" = "False"
+    "AdditionalOptions" = ""
+    "ReferencePaths" = ""
+    "CopyBookPaths" = ""
+    }
+}
+"Source Files"
+{
+    "Program1.cob"
+    {
+    "ProjRelPath" = "T"
+    "ExcludeFromBuild" = "F"
+    "PropertyChanged" = "T"
+    "Default View" = "Code"
+    }
+}
+"Copy Book Files"
+{
+}
+"References"
+{
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

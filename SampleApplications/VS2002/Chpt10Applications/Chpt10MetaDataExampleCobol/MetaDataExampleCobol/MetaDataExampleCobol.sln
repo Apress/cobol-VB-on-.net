@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{83A0EA8E-D76E-42EE-894A-BCD4CD2BB664}") = "MetaDataExampleCobol", "MetaDataExampleCobol.cobp", "{3E89BE0C-3E71-49AA-9829-2C76FE9CC3DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3E89BE0C-3E71-49AA-9829-2C76FE9CC3DE}.Debug.ActiveCfg = Debug|.NET
+		{3E89BE0C-3E71-49AA-9829-2C76FE9CC3DE}.Debug.Build.0 = Debug|.NET
+		{3E89BE0C-3E71-49AA-9829-2C76FE9CC3DE}.Release.ActiveCfg = Release|.NET
+		{3E89BE0C-3E71-49AA-9829-2C76FE9CC3DE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

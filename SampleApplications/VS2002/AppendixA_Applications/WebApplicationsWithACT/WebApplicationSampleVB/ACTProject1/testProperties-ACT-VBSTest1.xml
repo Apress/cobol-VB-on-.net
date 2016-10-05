@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Settings>
+<DefaultValues >
+	<TestProperties >
+		<ControllerReportTimeout type="long" value="5"/>
+		<Timeout type="long" value="120"/>
+		<Duration type="long" value="300"/>
+		<Warmup type="long" value="0"/>
+		<UseIterations type="bool" value="False"/>
+		<Iterations type="long" value="200"/>
+		<UseRateControl type="bool" value="False"/>
+		<TargetRPS type="long" value="40"/>
+		<PerfCollectionInterval type="long" value="10"/>
+		<TestType type="long" value="1"/>
+		<GenerateUsers type="bool" value="True"/>
+		<UsersToGenerate type="long" value="5000"/>
+		<CollectPerfCounters type="bool" value="False"/>
+		<CollectRuntimeHistory type="bool" value="true"/>
+		<Locale type="long" value="1033"/>
+		<CollectPerPageData type="bool" value="true"/>
+	</TestProperties>
+	<DynamicTest >
+		<Language type="string" value="VBScript"/>
+		<NumberOfThreads type="long" value="1"/>
+		<FollowRedirects type="bool" value="False"/>
+		<RedirectDepth type="long" value="15"/>
+	</DynamicTest>
+	<Network >
+		<Enable type="bool" value="False"/>
+		<NATRange type="long" value="0"/>
+		<Distribution.9.6K type="long" value="1"/>
+		<Distribution.14.4K type="long" value="4"/>
+		<Distribution.28.8K type="long" value="5"/>
+		<Distribution.56K type="long" value="20"/>
+		<Distribution.128K type="long" value="15"/>
+		<Distribution.512K type="long" value="15"/>
+		<Distribution.T1 type="long" value="15"/>
+		<Distribution.Unlimited type="long" value="15"/>
+		<PropagationDelay type="long" value="200"/>
+		<NATStartAddr type="string" value="10.10.1.1"/>
+		<NATStopAddr type="string" value="10.10.1.255"/>
+		<ClientPortStart type="long" value="1000"/>
+		<ClientPortEnd type="long" value="5000"/>
+	</Network>
+	<StaticTest >
+		<DefaultServer type="string" value="localhost"/>
+		<DefaultMethod type="string" value="GET"/>
+		<DefaultHTTPVer type="string" value="HTTP/1.1"/>
+		<DefaultPort type="long" value="80"/>
+		<SessionCount type="long" value="5"/>
+		<UseRandomDelay type="bool" value="True"/>
+		<MinDelay type="long" value="10"/>
+		<MaxDelay type="long" value="1500"/>
+		<FollowRedirects type="bool" value="True"/>
+		<RedirectDepth type="long" value="15"/>
+	</StaticTest>
+</DefaultValues>

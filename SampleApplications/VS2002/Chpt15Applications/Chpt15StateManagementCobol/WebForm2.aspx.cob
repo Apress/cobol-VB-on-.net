@@ -1,0 +1,163 @@
+000010 IDENTIFICATION DIVISION.
+000020 CLASS-ID. WebForm2 AS "StateManagementCobol.WebForm2"
+000030     INHERITS CLASS-PAGE.
+000040 ENVIRONMENT DIVISION.
+000050 CONFIGURATION SECTION.
+000060 SPECIAL-NAMES.
+000070 REPOSITORY.
+000080     CLASS CLASS-Collection AS "System.Collections.Specialized.NameValueCollection"
+000090     CLASS CLASS-EVENTARGS AS "System.EventArgs"
+000100     DELEGATE DELEGATE-EVENTHANDLER AS "System.EventHandler"
+000110     CLASS CLASS-OBJECT AS "System.Object"
+000120     CLASS CLASS-PAGE AS "System.Web.UI.Page"
+000130     CLASS CLASS-BUTTON AS "System.Web.UI.WebControls.Button"
+000140     CLASS CLASS-LABEL AS "System.Web.UI.WebControls.Label"
+000150     CLASS CLASS-TEXTBOX AS "System.Web.UI.WebControls.TextBox"
+000160     PROPERTY PROP-BUTTON1 AS "Button1"
+000170     PROPERTY PROP-PARAMS AS "Params"
+000180     PROPERTY PROP-REQUEST AS "Request"
+000190     PROPERTY PROP-TEXT AS "Text"
+000191     PROPERTY PROP-RESPONSE AS "Response"
+000192     CLASS CLASS-RESPONSE AS "System.Web.HttpResponse"
+000200     .
+000210
+000220 OBJECT.
+000230 DATA DIVISION.
+000240 WORKING-STORAGE SECTION.
+000250 01 Button1 OBJECT REFERENCE CLASS-BUTTON PROPERTY.
+000260 01 Label1 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000270 01 TextBox1 OBJECT REFERENCE CLASS-TEXTBOX PROPERTY.
+000280 01 Label3 OBJECT REFERENCE CLASS-LABEL PROPERTY.
+000290 PROCEDURE DIVISION.
+000300
+000310* Required method for Designer support - do not modify
+000320* the contents of this method with the code editor.
+000330 METHOD-ID. INITIALIZECOMPONENT AS "InitializeComponent" PRIVATE.
+000340 DATA DIVISION.
+000350 WORKING-STORAGE SECTION.
+000360 01 TEMP1 OBJECT REFERENCE CLASS-BUTTON.
+000370 01 TEMP2 OBJECT REFERENCE DELEGATE-EVENTHANDLER.
+000380 01 TEMP3 OBJECT REFERENCE DELEGATE-EVENTHANDLER.
+000390 PROCEDURE DIVISION.
+000400*>>IMP BEGIN-EMBEDDED-CODEDOM
+000410*<embedded-codedom>
+000420*<object type="System.CodeDom.CodeAttachEventStatement">
+000430*<prop name="Event">
+000440*<object type="System.CodeDom.CodeEventReferenceExpression">
+000450*<prop name="TargetObject">
+000460*<object type="System.CodeDom.CodeFieldReferenceExpression">
+000470*<prop name="TargetObject">
+000480*<object type="System.CodeDom.CodeThisReferenceExpression">
+000490*</object>
+000500*</prop>
+000510*<prop name="FieldName">
+000520*<string value="Button1" />
+000530*</prop>
+000540*</object>
+000550*</prop>
+000560*<prop name="EventName">
+000570*<string value="Click" />
+000580*</prop>
+000590*</object>
+000600*</prop>
+000610*<prop name="Listener">
+000620*<object type="System.CodeDom.CodeDelegateCreateExpression">
+000630*<prop name="DelegateType">
+000640*<object type="System.CodeDom.CodeTypeReference">
+000650*<prop name="BaseType">
+000660*<string value="System.EventHandler" />
+000670*</prop>
+000680*</object>
+000690*</prop>
+000700*<prop name="TargetObject">
+000710*<object type="System.CodeDom.CodeThisReferenceExpression">
+000720*</object>
+000730*</prop>
+000740*<prop name="MethodName">
+000750*<string value="Button1_Click" />
+000760*</prop>
+000770*</object>
+000780*</prop>
+000790*</object>
+000800*<object type="System.CodeDom.CodeAttachEventStatement">
+000810*<prop name="Event">
+000820*<object type="System.CodeDom.CodeEventReferenceExpression">
+000830*<prop name="TargetObject">
+000840*<object type="System.CodeDom.CodeThisReferenceExpression">
+000850*</object>
+000860*</prop>
+000870*<prop name="EventName">
+000880*<string value="Load" />
+000890*</prop>
+000900*</object>
+000910*</prop>
+000920*<prop name="Listener">
+000930*<object type="System.CodeDom.CodeDelegateCreateExpression">
+000940*<prop name="DelegateType">
+000950*<object type="System.CodeDom.CodeTypeReference">
+000960*<prop name="BaseType">
+000970*<string value="System.EventHandler" />
+000980*</prop>
+000990*</object>
+001000*</prop>
+001010*<prop name="TargetObject">
+001020*<object type="System.CodeDom.CodeThisReferenceExpression">
+001030*</object>
+001040*</prop>
+001050*<prop name="MethodName">
+001060*<string value="Page_Load" />
+001070*</prop>
+001080*</object>
+001090*</prop>
+001100*</object>
+001110*</embedded-codedom>
+001120*>>IMP END-EMBEDDED-CODEDOM
+001130     SET TEMP1 TO PROP-BUTTON1 OF SELF
+001140     INVOKE DELEGATE-EVENTHANDLER "NEW" USING BY VALUE SELF BY VALUE N"Button1_Click" RETURNING TEMP2
+001150     INVOKE TEMP1 "add_Click" USING BY VALUE TEMP2
+001160     INVOKE DELEGATE-EVENTHANDLER "NEW" USING BY VALUE SELF BY VALUE N"Page_Load" RETURNING TEMP3
+001170     INVOKE SELF "add_Load" USING BY VALUE TEMP3
+001180 END METHOD INITIALIZECOMPONENT.
+001190
+001200 METHOD-ID. ONINIT AS "OnInit" OVERRIDE PROTECTED.
+001210 DATA DIVISION.
+001220 LINKAGE SECTION.
+001230 01 PARAM-E OBJECT REFERENCE CLASS-EVENTARGS.
+001240 PROCEDURE DIVISION USING BY VALUE PARAM-E.
+001250     INVOKE SELF "InitializeComponent".
+001260     INVOKE SUPER "OnInit" USING BY VALUE PARAM-E.
+001270 END METHOD ONINIT.
+001280
+001290 METHOD-ID. PAGE_LOAD AS "Page_Load" PRIVATE.
+001300 DATA DIVISION.
+001310 WORKING-STORAGE SECTION.
+001320   01 MiscString1       PIC X(25).
+001330   01 MyParamsObject    OBJECT REFERENCE CLASS-Collection.
+001340 LINKAGE SECTION.
+001350 01 PARAM-SENDER OBJECT REFERENCE CLASS-OBJECT.
+001360 01 PARAM-E OBJECT REFERENCE CLASS-EVENTARGS.
+001370 PROCEDURE DIVISION USING BY VALUE PARAM-SENDER PARAM-E.
+001380  
+001390     SET MyParamsObject TO PROP-PARAMS OF PROP-REQUEST OF SELF
+001400     INVOKE MyParamsObject "get_Item" 
+001410     USING BY VALUE "PassedQueryStringValue" RETURNING MiscString1
+001420     SET PROP-TEXT OF TextBox1 TO MiscString1
+001430
+001440 END METHOD PAGE_LOAD.
+001450 
+001460 METHOD-ID. Button1_Click PRIVATE.
+001470 DATA DIVISION.
+001471 WORKING-STORAGE SECTION.
+001472  01 MyResponse        OBJECT REFERENCE CLASS-RESPONSE.
+001480 LINKAGE SECTION.
+001490 01 sender OBJECT REFERENCE CLASS-OBJECT.
+001500 01 e OBJECT REFERENCE CLASS-EVENTARGS.
+001510 PROCEDURE DIVISION USING BY VALUE sender e.
+001511 
+001512     SET MyResponse TO PROP-RESPONSE OF SELF
+001519     INVOKE MyResponse "Redirect" USING BY VALUE "WebForm1.aspx".
+001520
+001523 END METHOD Button1_Click.
+001530
+001540 END OBJECT.
+001550 END CLASS WebForm2.

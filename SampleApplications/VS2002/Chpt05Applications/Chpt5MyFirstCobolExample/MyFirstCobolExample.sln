@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{83A0EA8E-D76E-42EE-894A-BCD4CD2BB664}") = "MyFirstCobolExample", "MyFirstCobolExample.cobp", "{21DD0EBA-9D24-4CE3-9EAA-BDC5D7621AC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{21DD0EBA-9D24-4CE3-9EAA-BDC5D7621AC7}.Debug.ActiveCfg = Debug|.NET
+		{21DD0EBA-9D24-4CE3-9EAA-BDC5D7621AC7}.Debug.Build.0 = Debug|.NET
+		{21DD0EBA-9D24-4CE3-9EAA-BDC5D7621AC7}.Release.ActiveCfg = Release|.NET
+		{21DD0EBA-9D24-4CE3-9EAA-BDC5D7621AC7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+/nologo
+/main:MAIN
+/target:exe
+/out:"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt11DatabaseAccessExampleCobol\DataBaseAccessExampleCOBOL\bin\Debug\DataBaseAccessExampleCOBOL.exe"
+/debug
+/reference:"c:\winnt\microsoft.net\framework\v1.0.3705\system.data.dll"
+"C:\Documents and Settings\Administrator\My Documents\Book Preparation and References\FiguresAndSource\TechnicalPrepForFiguresAndSource\Source\Chpt11DatabaseAccessExampleCobol\DataBaseAccessExampleCOBOL\Program1.cob"

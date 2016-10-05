@@ -1,0 +1,187 @@
+// The package statement is similar to the namespace statement 
+package MyFirstJSharpApplication;
+// The import statement provides a short cut for namespace coding
+// notice the asterisk (below) used as a wildcard.
+import System.*;
+
+/**
+	* This is my first J# Application. Coding in J# is easy.
+	* The use of the slash and two asterisks ("/**") denotes 
+	* the use of J#'s Javadoc like Documentation feature. 
+	* You will also see Javadoc comments using Tags
+	* (e.g @param, @return, @see, @version, and @author).
+	* You can display Javadoc comment blocks by
+	* navigating to the VS.NET Main Toolbar, 
+	* clicking Tools and then clicking
+	* the "Build Comment Web Pages" menu option. 
+	* After building the Comment Web Page you can save the page 
+	* as part of the applications documentation.
+	* @author Chris Richardson
+	*/
+public class Class1
+{
+	
+	public Class1()
+	{}
+	
+	/** 
+		* The main entry point for the application.
+		* @attribute System.STAThread() */
+	public static void main(String[] args)
+	{
+		// Use two slash symbols ("//") for a single line comment
+		/* Optionally, you can create a multi line comment block 
+		 * by using a single slash followed by an asterisk ("/*").
+		 * The end the comment block, use an asterisk followed by a slash
+		 */
+		Console.WriteLine("Hello, .NET World.");
+		Console.WriteLine("I cannot believe how simple J# is!");
+			
+		//Execure Procedures
+		DefineDataTypesSample();
+		LogicSample();
+
+		Console.WriteLine("Press Enter to Exit.");
+		Console.ReadLine();
+		}
+	static void DefineDataTypesSample()
+	{
+
+		//Declare Data Items using generic Object Types
+		// code was added to cast the objects to J# Data Types
+		short MyFirstNumberJsharp;
+		int MySecondNumberJsharp;
+		double MyThirdNumberJsharp;
+			
+		//Declare Data Items using Native .NET Data Types
+		System.Int16 MyFirstNumberNative;
+		System.Int32 MySecondNumberNative;
+		System.Double MyThirdNumberNative;
+
+		//Place a numeric literal in Data Item
+		Int16 myShortvalue = (Int16) 32767;
+		Int32 myIntvalue = (Int32) 32767;
+		System.Double myDoublevalue = (System.Double) 32767;
+
+		MyFirstNumberJsharp = (short) myShortvalue;
+		MySecondNumberJsharp = (int) myIntvalue;
+		MyThirdNumberJsharp = (double) myDoublevalue;
+
+		MyFirstNumberNative = (System.Int16)32767;
+		MySecondNumberNative = (System.Int32)32767;
+		MyThirdNumberNative = (System.Double)32767;
+
+		//Write out contents of each variable
+		Console.WriteLine("MyFirstNumberJsharp= " + 
+			MyFirstNumberJsharp);
+		Console.WriteLine("MySecondNumberJsharp= " + 
+			MySecondNumberJsharp);
+		Console.WriteLine("MyThirdNumberJsharp= " + 
+			MyThirdNumberJsharp);
+		Console.WriteLine("MyFirstNumberNative= {0}", 
+			MyFirstNumberNative);
+		Console.WriteLine("MySecondNumberNative= {0}", 
+			MySecondNumberNative);
+		Console.WriteLine("MyThirdNumberNative= {0}", 
+			MyThirdNumberNative);
+	}
+	static void LogicSample()
+	{
+		//*** Declare Data Items using .NET Data Types
+		System.String MYString;
+		System.Int32 MYInteger;
+		boolean MYBoolean = false;
+		System.DateTime systemDate;
+	        
+		//*** Declare Data Items with J# Data Types
+		int MyIndex = 0;
+		int MySecondIndex;
+		int MyAccum = 0;
+		boolean MyFlag = false;
+		java.lang.String  MyFixedLengthString;
+	         
+		//*** Demonstrate creation of String Array
+		java.lang.String[] MonthValues = 
+			{
+					"January", "February", "March", 
+				"April", "May", "June",
+				"July", "August", "September", 
+				"October", "November", "December"};
+	        
+		//*** Demonstrate Intrinsic Function accessing System Date
+		//    notice that "get_" is attached to the Now method/property
+		systemDate = DateTime.get_Now();
+			
+		Console.WriteLine("Today is {0}" ,
+			systemDate.ToShortDateString());
+	        
+		//*** Demonstrate Booleans, Constants, and Conditional/Computational Logic
+	        
+		do 
+		{
+			MyIndex += 1;
+			if (MyIndex > 12)
+			{
+				MYBoolean = true;
+				MyFlag = MYBoolean;
+			}
+		} while (!(MyFlag));
+	        
+		if (MyFlag) 
+		{
+			MYString = "The Boolean is now set to TRUE";
+			MyFixedLengthString = MYString;
+			Console.WriteLine(MyFixedLengthString);
+		}
+
+		//*** Demonstrate usage Conditional and Computational Logic
+		for (MySecondIndex = 1; MySecondIndex <= MyIndex; MySecondIndex++)
+		{
+			MyAccum = MySecondIndex += 1;
+		}
+		MYInteger = (Int32) MyAccum;
+			
+		//*** Demonstrate Intrinsic Functions, Conditional/Computational Logic
+			
+		MyIndex = 1;
+		MyFixedLengthString = String.Empty;
+		for (int x = 0; x <= 11; x++)
+		{
+			switch (x)
+			{
+				case 11:
+				case 0:
+				case 1:
+					Console.WriteLine
+						(java.lang.String.Concat(MonthValues[x],
+						" is ","Winter"));
+					break;
+				case 2:
+				case 3:
+				case 4:
+					Console.WriteLine
+						(java.lang.String.Concat(MonthValues[x],
+						" is ","Spring"));
+					break;
+				case 5:
+				case 6:
+				case 7:
+					Console.WriteLine 
+						(java.lang.String.Concat(MonthValues[x],
+						" is ","Summer"));
+					break;
+				case 8:
+				case 9:
+				case 10:
+					Console.WriteLine
+						(java.lang.String.Concat(MonthValues[x],
+						" is ","Autumn"));
+					break;
+				default:
+					Console.WriteLine 
+						("A logic exception");
+					break;
+			}
+		}
+	}
+}
